@@ -1,0 +1,83 @@
+/* Brainstorm Page Styles - Obsidian Theme */
+body {
+  background-color: #1e1e2e;
+  color: #cdd6f4;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #181825;
+  padding: 10px;
+}
+
+nav button {
+  background: #790bff;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  color: #1e1e2e;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background: #a18dff;
+}
+
+#content {
+  padding: 20px;
+}
+
+.brainstorm-page {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.brainstorm-page h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#brainstormInput {
+  width: 100%;
+  height: 200px;
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #45475a;
+  background-color: #313244;
+  color: #cdd6f4;
+  resize: vertical;
+}
+
+#saveBrainstorm {
+  margin-top: 16px;
+  padding: 10px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #1e1e2e;
+  background-color: #cba6f7;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#saveBrainstorm:hover {
+  background-color: #f5c2e7;
+}
+
+#saveMessage {
+  margin-top: 12px;
+  color: #a6e3a1;
+  font-weight: 600;
+}
+
+.hidden {
+  display: none;
+}

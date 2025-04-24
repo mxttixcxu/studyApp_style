@@ -1,0 +1,92 @@
+/* Obsidian-inspired Dark Theme */
+
+body {
+  background-color: #1e1e2e;
+  color: #cdd6f4;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #181825;
+  padding: 1rem;
+  border-bottom: 1px solid #45475a;
+}
+
+nav a {
+  color: #cba6f7;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #f5c2e7;
+}
+
+/* Containers */
+main, .container, .content {
+  padding: 2rem;
+  background-color: #1e1e2e;
+}
+
+/* Buttons */
+button {
+  background-color: #b798ff;
+  color: #1e1e2e;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.10);
+  background-color: #6200ff;
+  color: white;
+}
+
+/* Inputs */
+input, textarea, select {
+  background-color: #313244;
+  color: #cdd6f4;
+  border: 1px solid #45475a;
+  padding: 0.5rem;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border-color: #cba6f7;
+}
+
+/* Lists, tasks, notes */
+ul, ol {
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2a2a40;
+  padding: 0.75rem;
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
+}
+
+.todo-item.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
